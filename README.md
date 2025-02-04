@@ -1,7 +1,8 @@
 # sd_notify.zig
 
-A pure zig implementation systemd's of systemd's service notification protocol aka `sd_notify`. Nothing to add more about it, it just do it's stuff.
+A pure zig implementation systemd's of systemd's service notification protocol aka `sd_notify`.
 
+This implementation functions seamlessly on both systemd and non-systemd systems. On non-systemd systems, it creates a notifier that does nothing.
 
 ## Basic example
 
